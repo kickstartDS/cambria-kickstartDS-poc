@@ -1,0 +1,20 @@
+{
+  "label": "Cambria",
+  "variant": "solid",
+  "size": "large",
+  "className": "cta-button",
+  "icon": {
+    "icon": "chevron-right",
+    "role": "icon",
+    "className": "cta-button--icon"
+  },
+  "iconBefore": false,
+  "iconAfter": true,
+  "dataComponent": "cambria-button",
+  "fillAnimation": true,
+  "iconAnimation": true,
+  "type": "button",
+  "value": "cta-button",
+  "name": "cta-button",
+  "disabled": false
+}

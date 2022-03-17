@@ -1,0 +1,12 @@
+{
+  "name": "cambria-kickstartDS-poc",
+  "version": "0.0.1",
+  "description": "Experimentation with Cambria and kickstartDS JSON Schema component APIs",
+  "main": "index.js",
+  "author": "Jonas Ulrich | ruhmesmeile GmbH",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cambria": "^0.1.2"
+  }
+}

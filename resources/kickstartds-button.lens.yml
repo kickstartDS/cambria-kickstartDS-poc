@@ -1,0 +1,16 @@
+# Convert a kickstartDS Button into a simpler format
+schemaName: Button
+
+lens:
+  # remove unnecessary fields
+  - remove: { name: className }
+  - remove: { name: icon }
+  - remove: { name: iconBefore }
+  - remove: { name: iconAfter }
+  - remove: { name: dataComponent }
+  - remove: { name: fillAnimation }
+  - remove: { name: iconAnimation }
+  - remove: { name: type }
+  - remove: { name: value }
+  - remove: { name: name }
+  - remove: { name: disabled }
