@@ -2,7 +2,7 @@ const cambria = require('cambria');
 const fs = require('fs');
 
 // read doc from stdin if no input specified
-const input = fs.readFileSync("./resources/button-instance.json" || 0, 'utf-8');
+const input = fs.readFileSync("./dist/button-instance.json" || 0, 'utf-8');
 const doc = JSON.parse(input);
 
 // we can (optionally) apply the contents of the changed document to a target document

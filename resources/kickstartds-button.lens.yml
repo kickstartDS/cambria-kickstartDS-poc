@@ -3,14 +3,14 @@ schemaName: Button
 
 lens:
   # remove unnecessary fields
-  - remove: { name: className }
-  - remove: { name: icon }
-  - remove: { name: iconBefore }
-  - remove: { name: iconAfter }
-  - remove: { name: dataComponent }
-  - remove: { name: fillAnimation }
-  - remove: { name: iconAnimation }
-  - remove: { name: type }
-  - remove: { name: value }
-  - remove: { name: name }
-  - remove: { name: disabled }
+  - remove: { name: className, type: string }
+  - remove: { name: icon, type: string }
+  - remove: { name: iconBefore, type: string }
+  - remove: { name: iconAfter, type: string }
+  - remove: { name: dataComponent, type: string }
+  - remove: { name: fillAnimation, type: string }
+  - remove: { name: iconAnimation, type: string }
+  - remove: { name: type, type: string }
+  - remove: { name: value, type: string }
+  - remove: { name: name, type: string }
+  - remove: { name: disabled, type: string }
